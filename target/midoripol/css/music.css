@@ -1,0 +1,85 @@
+@import "layout.css";
+
+.pageContent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+
+.card {
+    margin-bottom: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;  /* uguale alla height della img */
+    border: solid 1px #39b04a;
+}
+
+.songTitle {
+    margin-top: 15px;
+    text-align: center;
+    line-height: 27px;
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 0;
+    position: relative;
+}
+.spacer {
+    height: 115px;
+}
+@media only screen and (max-width: 1200px) {
+
+    .pageContent {
+        grid-template-columns: 40% 40%;
+        margin-left: 0;
+        gap: 8vw;
+
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .pageContent {
+        grid-template-columns: 40% 40%;
+        margin-top: 25px;
+    }
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+    .card img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /*
+    .content {
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+    */
+    .pageContent {
+        grid-template-columns: 100%;
+        margin-top: 50px;
+    }
+    .card:first-child {
+        margin-top: 0;
+    }
+    .card:last-child {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 325px) { 
+    .pageContent {
+        grid-template-columns: 95%;
+    }
+}
+

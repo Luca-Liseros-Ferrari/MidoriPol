@@ -1,0 +1,9 @@
+frolvwrylatafudv
+
+
+DAL PROMPT DEI COMANDI
+set EMAIL_PASSWORD=passwordpresadagoogle
+
+VERIFICA
+echo %EMAIL_PASSWORD%
+

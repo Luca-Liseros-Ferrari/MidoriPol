@@ -1,0 +1,9 @@
+com\midoriPol\rs\ResourceUtility.class
+Main.class
+com\midoriPol\model\MyAuthenticator.class
+com\midoriPol\rs\SendEmailResource.class
+dto\EmailDTO.class
+com\midoriPol\model\EmailMessage.class
+com\midoriPol\rs\RestApplication.class
+com\midoriPol\business\SendMail.class
+com\midoriPol\rs\JacksonConfiguration.class

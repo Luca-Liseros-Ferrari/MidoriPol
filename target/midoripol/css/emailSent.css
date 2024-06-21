@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'FLORE';
+    src: url('/Font/Flore.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #001805;
+    background-image: url("../images/emailSent/emailSent.png");
+    background-repeat: no-repeat;
+}
+
+.backHome {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    font-family: 'FLORE';
+    font-size: 24px;
+    color: #39b04a;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.message {
+    font-family: 'FLORE';
+    padding: 20px;
+    font-size: 34px;
+    color: #39b04a;
+    text-align: center;
+    background: #000;
+    position: relative;
+    top: 70px;
+}
+
+@media only screen and (max-width: 500px) { 
+    body {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 100vh;
+    }
+    .message {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .backHome {
+        font-size: 20px;
+    }
+}

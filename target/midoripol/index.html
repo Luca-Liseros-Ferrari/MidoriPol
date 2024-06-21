@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luca Liseros Ferrari">
+    <meta name="description" content="Midori Pol Website">
+    <meta name="copyright" content="Luca Liseros Ferrari">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="generator" content="IntelliJ IDEA">
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self';
+                    object-src 'none'; style-src 'self' 'unsafe-inline';
+                     img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self'">
+    <title>Midori Pol - Index</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body class="out">
+    <!-- landscape view -->
+    <div class="landscapeView">
+      <p>this site does not support landscape view for mobile</p>
+    </div>
+    <!-- too small screen -->
+    <div class="smallScreen">
+      <p>
+        your screen is too small...It's not your fault, get angry with my web developer 
+      </p>
+    </div>
+    <!-- CONTAINER -->
+    <div class="container">
+      <!-- HEADER -->
+      <header class="header">
+        <img src="./images/indexImages/midoriGreenSmall.png" class="textPhone" alt="Logo">
+      </header>
+      <!-- END HEADER -->
+      <!-- CONTENT -->
+      <div class="content">
+        <!-- MENU -->
+        <div class="menu">
+          <ul class="menuUl">
+            <li><a class="menuLinks" href="index.html"> home </a></li>
+            <li><a class="menuLinks" href="bio.html"> bio </a></li>
+            <li><a class="menuLinks" href="find_me.html"> find me </a></li>
+            <li><a class="menuLinks" href="music.html"> music </a></li>
+            <li><a class="menuLinks" href="services.html"> services </a></li>
+            <!--SWITCH-->
+            <li>
+              <a class="menuLinks switchFromMenu">
+                <img
+                  src="images/layoutImages/switchBtn/switchGreenMenu.png"
+                  class="fromMenuSwitch" alt="Switch Button"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <!-- END MENU-->
+      </div>
+      <!-- END CONTENT-->
+      <div class="logo">
+        <img src="images/indexImages/logo.png" alt="Logo" class="logoImg" />
+      </div>
+      <!-- click elements -->
+      <div class="logoMask"></div>
+      <div class="bgIconMask"></div>
+      <div class="text">
+        <img src="images/indexImages/midoriPol.png" alt="Midori Pol Text" class="textImg" />
+      </div>
+      <div class="bgIcon">
+        <img src="images/bgIcon/bg.png" alt="Hamburger Icon" class="bgIconImg" />
+      </div>
+      <div class="spacer"></div>
+      <!-- FOOTER -->
+      <div class="footer">
+        <div class="copyright"><p class="copyRightText"></p></div>
+      </div>
+      <!-- END FOOTER -->
+      <!-- END CONTAINER -->
+    </div>
+    <!-- SCRIPT AREA -->
+    <script src="js/index.js"></script>
+    <script src="js/switchColorIndex.js"></script>
+    <script src="js/browserUpdate.js"></script>
+    <script src="js/detectDevice.js"></script>
+    <script src="js/copyright.js"></script>
+  </body>
+</html>

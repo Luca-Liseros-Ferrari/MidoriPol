@@ -1,0 +1,83 @@
+@import "layout.css";
+
+.wrapIcons {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapDesktop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+    position: relative;
+    left: 160px;
+    top: 50px;
+}
+
+.imgIcons {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 45px;
+    position: relative;
+    left: 160px;
+    top: 50px;
+    cursor: pointer;
+    border: solid 2px #39b04a;
+}
+
+.imgIcons:nth-child(odd) {
+    left: 2000px;
+}
+
+.imgIcons:nth-child(even) {
+    left: -2000px;
+}
+
+.wrapDesktop:last-child {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 730px) {
+    .pageContent {
+        width: 100%;
+    }
+    .wrapIcons {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        position: relative;
+        left: 8vw;
+        padding-bottom: 70px;
+        overflow-y: scroll;
+        /* background: violet; */
+    }
+    
+
+    .imgIcons {
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .iconsUl {
+        list-style-type: none;
+    }
+
+    .spacer {
+        height: 100px;
+    }
+
+    .wrapDesktop:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .imgIcons {
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,55 @@
+@import "layout.css";
+
+.container {
+    background: #000103;
+}
+
+.pageContent {
+    width: 55%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #39b04a;
+    border: solid 1px #39b04a;
+    margin-left: 6vw;
+}
+
+.pageContent p {
+    font-family: 'Flore';
+    font-size: 24px;
+    padding: 25px;
+    text-align: center;
+    line-height: 1.35;
+}
+
+.bioImage {
+    width: 100%;
+}
+
+@media only screen and (max-width: 730px) {
+    .pageContent {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .pageContent {
+        width: auto;
+        margin: 30px 10px 0 10px;
+        color: #39b04a;
+        border: solid 1px #39b04a;
+    }
+
+    .bioImage {
+        width: 100%;
+    }
+
+    .pageContent p {
+        font-size: 19px;
+        text-align: left;
+        word-spacing: 2px;
+        letter-spacing: normal;
+        margin: 6px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+}
