@@ -1,8 +1,9 @@
-frolvwrylatafudv
-
+qcadnacyxqhawjol
 
 DAL PROMPT DEI COMANDI
-set EMAIL_PASSWORD=passwordpresadagoogle
+set EMAIL_PASSWORD=qcadnacyxqhawjol
+da powershell
+$env:EMAIL_PASSWORD="qcadnacyxqhawjol"
 
 VERIFICA
 echo %EMAIL_PASSWORD%
