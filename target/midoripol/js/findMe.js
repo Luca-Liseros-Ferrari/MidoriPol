@@ -19,9 +19,6 @@ for (let [index, element] of imgIcons.entries()) {
   });
 }
 
-function linearOne (element) {
-  element.style.transition = "all 1s linear";
-}
 function linearOneFive (element) {
   element.style.transition = "all 1.5s ease-out";
 }
@@ -85,8 +82,6 @@ window.addEventListener("load", (event) => {
       linearTwo(imgIcons[3])
       imgIcons[3].style.left = "0px";
     }, 400);
- 
-
 });
 
 }

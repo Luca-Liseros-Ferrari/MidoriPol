@@ -16,7 +16,7 @@ public class SendMail {
         String password = System.getenv("EMAIL_PASSWORD");
         System.out.println
                 ("Retrieved password: " + (password != null ? password : "No password specified"));
-        return "password";
+        return password;
     }
 
 
@@ -51,7 +51,7 @@ private static Properties properties () {
 
   public static void sendEmailToCustomer
           (String mittenteEmail, String objectMsg, String messageToCustomer) {
-    final String senderEmail = "midoripolofficial@gmail.com"; // Modifica con il tuo indirizzo email
+    final String senderEmail = "midoripolofficial@gmail.com";
 
     Authenticator authenticator = new MyAuthenticator(senderEmail, psw());
     Session session = Session.getInstance(properties(), authenticator);

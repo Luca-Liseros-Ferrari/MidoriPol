@@ -1,8 +1,6 @@
 let logoMask = document.querySelector(".logoMask");
 let bgIconMask = document.querySelector(".bgIconMask");
-let wrapContainer = document.querySelector(".wrapContainer");
 let logo = document.querySelector(".logo");
-let provo = document.querySelector(".logoTry");
 let text = document.querySelector(".text");
 let container = document.querySelector(".container");
 let header = document.querySelector(".header");
@@ -59,18 +57,6 @@ function appare(element) {
   element.style.transitionDuration = "5s";
   element.style.height = "auto";
   element.style.width = "100%";
-  element.style.display = "block";
-}
-
-// appare laptop
-function appareLaptop(element) {
-  console.log("height appare laptop");
-  element.style.opacity = "1";
-  element.style.transitionProperty = "opacity, margin";
-  element.style.transitionDelay = "3s";
-  element.style.transitionDuration = "5s";
-  element.style.height = "auto";
-  element.style.width = "100%"; // 100%
   element.style.display = "block";
 }
 
@@ -166,31 +152,6 @@ function resizeMedium(element) {
   disappearLogoAfter(element);
 }
 
-// < 730
-function spostoMobile(element) {
-  console.log("sposto < 730");
-  element.style.transitionProperty = "height, margin";
-  element.style.display = "flex";
-  element.style.transitionDelay = "1s";
-  element.style.transitionDuration = "2.5s";
-  element.style.height = "auto"; // auto
-  element.style.marginTop = "-81px"; // -81px
-  element.style.marginLeft = "32px";
-}
-
-// < 730
-function resizeMobile(element) {
-  console.log("resize < 730");
-  element.style.scale = "1";
-  element.style.transitionProperty = "width, margin";
-  element.style.transitionDelay = "1s";
-  element.style.transitionDuration = "3s";
-  element.style.width = "315px";
-  // element.style.position = "relative";
-  element.classList.add("logoAfter");
-  disappearLogoAfter(element);
-}
-
 // < 730 > 868 height
 function spostoMobileHeight(element) {
   console.log("sposto < 730 height > 868");
@@ -240,54 +201,6 @@ function resizeCinquecento(element) {
   disappearLogoAfter(element);
 }
 
-// < 600 >= 868
-function spostoSeicento(element) {
-  console.log("sposto < 600");
-  element.style.transitionProperty = "height, margin";
-  element.style.display = "flex";
-  element.style.transitionDelay = "1s";
-  element.style.transitionDuration = "2.5s";
-  element.style.height = "215px";
-  element.style.marginTop = "0";
-  element.style.marginLeft = "31px";
-}
-// < 600 >= 868
-function resizeSeicento(element) {
-  console.log("resize < 600");
-  element.style.scale = "1";
-  element.style.transitionProperty = "width, margin";
-  element.style.transitionDelay = "1s";
-  element.style.transitionDuration = "3s";
-  element.style.width = "255px";
-  element.style.position = "relative";
-  element.classList.add("logoAfter");
-  disappearLogoAfter(element);
-}
-
-// sposto laptop
-function spostoLaptop(element) {
-  console.log("height sposto laptop");
-  element.style.transitionProperty = "height, margin";
-  element.style.display = "flex";
-  element.style.transitionDelay = "1s";
-  element.style.transitionDuration = "2.5s";
-  element.style.height = "368px";
-  element.style.marginTop = "-46px";
-  element.style.marginLeft = "50px";
-  // disappearLogoAfter(element);
-}
-
-// resize laptop
-function resizeLaptop(element) {
-  console.log("height resize laptop");
-  element.style.transitionProperty = "width, margin";
-  element.style.transitionDelay = "1s";
-  element.style.transitionDuration = "3s";
-  element.style.width = "463px";
-  element.style.position = "relative";
-  element.classList.add("logoAfter");
-  disappearLogoAfter(element);
-}
 // < 412
 function spostoSmallHeight(element) {
   console.log("sposto < 412");

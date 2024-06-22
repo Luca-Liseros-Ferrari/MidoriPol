@@ -5,10 +5,8 @@ let switchBtnFromMenu = document.querySelector(".switchFromMenu img");
 let content = document.querySelector(".content");
 let childContent = document.querySelector(".pageContent");
 let menuContainer = document.querySelector(".menu");
-let menuContainerUl = document.querySelector(".menuUl");
 let imgIcons = document.querySelectorAll(".imgIcons");
 let imgIconsImg = document.querySelectorAll(".imgIcons img");
-let textIcons = document.querySelectorAll(".textIcons");
 
 // creo menu e routing
 const nomi = ["home", "bio", "find me", "music", "services"];
@@ -77,13 +75,13 @@ function changeColor() {
     for (let i = 0; i < imgIconsImg.length; i++) {
       changeIconsToBlack(imgIconsImg[i]);
     }
-
     // changing switch
     setBlackSwitch(switchBtnFromMenu);
-
     // Salva lo stato della modalità switch nel cookie o nello storage di sessione
     sessionStorage.setItem("switchMode", "green");
-  } else if (document.body.className === "full") {
+  }
+
+  else if (document.body.className === "full") {
     document.body.classList.remove("full");
     document.body.classList.add("out");
     changeLinkColorToGreen();

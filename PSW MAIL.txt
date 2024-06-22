@@ -1,10 +1,18 @@
-qcadnacyxqhawjol
+yiyzjmmxovyoxujj
 
 DAL PROMPT DEI COMANDI
-set EMAIL_PASSWORD=qcadnacyxqhawjol
-da powershell
-$env:EMAIL_PASSWORD="qcadnacyxqhawjol"
+set EMAIL_PASSWORD=yiyzjmmxovyoxujj
 
-VERIFICA
+da powershell
+$env:EMAIL_PASSWORD="psw"
+echo $env:EMAIL_PASSWORD
+
+
+
+
+VERIFICA PROMPT
 echo %EMAIL_PASSWORD%
+
+Verifica powershell
+echo $EMAIL_PASSWORD
 

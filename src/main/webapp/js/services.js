@@ -1,11 +1,8 @@
-console.log("ok!")
-
 let mixingMasteringContainerText = document.querySelector(
   ".mixingMasteringText"
 );
 
 let mixingTitle = document.querySelector(".mixingTitle");
-let mixingContainer = document.querySelector(".mixingMastering");
 let servicesItem = document.querySelectorAll(".servicesItem");
 
 // icons
