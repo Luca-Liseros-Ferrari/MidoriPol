@@ -1,2 +1,0 @@
-Ho modificato il target su github e messo nel file layout.css alla riga 403 3vw come font-size. Il war locale ha 0.5 em
-Se si vuole fare una push del target occorre prima rigenerare il container e fare l'add del target. Vedi file dockerbuild.
