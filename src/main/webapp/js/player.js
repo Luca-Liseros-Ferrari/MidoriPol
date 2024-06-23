@@ -9,7 +9,6 @@ console.log(timeInfo)
 playBtn.addEventListener("click", playMusic)
 pauseBtn.addEventListener("click", pauseMusic)
 
-
 function playMusic () {
 playBtn.style.display = "none"
 pauseBtn.style.display = "block"
