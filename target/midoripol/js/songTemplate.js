@@ -37,7 +37,11 @@ div.innerHTML = `
       </span>
       <span class="button">
         <button>
+<<<<<<< HEAD
           <a href="" target="_blank" class="links">listen</a>
+=======
+          <a href="" target="_blank" class="links"></a>
+>>>>>>> ad82924 (Descrizione delle modifiche)
         </button>
       </span>
     </div>
@@ -46,6 +50,10 @@ div.innerHTML = `
     .join("")}
 `;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad82924 (Descrizione delle modifiche)
 // map restituisce un nuovo array, per questo è possibile utilizzarlo all'interno dei template literals.
 // il metodo join('') è necessario per trasformare l'array in stringa.
 // in questo modo le immagini saranno "linkate" correttamente.
@@ -53,6 +61,20 @@ div.innerHTML = `
 wrapContent.appendChild(div);
 pageContent.appendChild(wrapContent);
 
+<<<<<<< HEAD
+=======
+// setto il nome in base al button (spotify, youtube, amazon music, apple music)
+let linksName = document.querySelectorAll(".links");
+console.log(linksName)
+for (let i=0; i < linksName.length; i++) {
+    console.log("singoli", linksName[i])
+    linksName[0].textContent = "listen"
+    linksName[1].textContent = "view"
+    linksName[2].textContent = "listen"
+    linksName[3].textContent = "listen"
+}
+
+>>>>>>> ad82924 (Descrizione delle modifiche)
 let backgroundImage = document.body.style.backgroundImage;
 console.log(backgroundImage);
 
@@ -96,6 +118,10 @@ if (backgroundImage.includes("MeMyselfAndIArtworkBlurred")) {
       "https://music.apple.com/it/album/me-myself-and-i/1694393600?i=1694393605",
     ]
   );
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad82924 (Descrizione delle modifiche)
 } else if (backgroundImage.includes("LadyBastetArtwork")) {
   songParams(
     "Lady Bastet",

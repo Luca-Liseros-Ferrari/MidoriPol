@@ -35,8 +35,14 @@ let specificaLiTre = "50 stems";
 
 // display first text each at beginning
 mixingMasteringContainerText.innerHTML = mixingMasterUnoText;
+<<<<<<< HEAD
 icons.innerHTML = ` <span class="deliveryClass"> ${deliveryIcon.outerHTML} 4-day delivery </span>
                     <span class= "revisionsClass"> ${revisionsIcon.outerHTML} 3 revisions <span> `;
+=======
+icons.innerHTML = `
+ <span class="deliveryClass"> ${deliveryIcon.outerHTML} 4-day delivery </span>
+ <span class= "revisionsClass"> ${revisionsIcon.outerHTML} 3 revisions <span> `;
+>>>>>>> ad82924 (Descrizione delle modifiche)
 specificheLi[2].innerHTML = `${checked.outerHTML} ${specificaLiUno} `;
 
 servicesItem.forEach(function (item) {
@@ -55,24 +61,42 @@ servicesItem.forEach(function (item) {
       mixingMasteringContainerText.innerHTML = mixingMasterUnoText;
       icons.innerHTML = "span 1";
       specificheLi[2].innerHTML = `${checked.outerHTML} ${specificaLiUno} `;
+<<<<<<< HEAD
       icons.innerHTML = ` <span class="deliveryClass"> ${deliveryIcon.innerHTML} 4-day delivery </span>
                           <span class= "revisionsClass"> ${revisionsIcon.innerHTML} 3 revisions <span> `;
+=======
+      icons.innerHTML = `
+<span class="deliveryClass"> ${deliveryIcon.outerHTML} 4-day delivery </span>
+<span class= "revisionsClass"> ${revisionsIcon.outerHTML} 3 revisions <span> `;
+>>>>>>> ad82924 (Descrizione delle modifiche)
 
     } else if (item.classList.contains("mixMasterTwo")) {
       mixingTitle.innerHTML = "Mixing/Mastering (16 - 30 stems) $70";
       mixingMasteringContainerText.innerHTML = mixingMasterDueText;
       icons.innerHTML = "span 2";
       specificheLi[2].innerHTML = `${checked.outerHTML} ${specificaLiDue} `;
+<<<<<<< HEAD
       icons.innerHTML = ` <span class="deliveryClass"> ${deliveryIcon.innerHTML} 5-day delivery </span>
                           <span class= "revisionsClass"> ${revisionsIcon.innerHTML} 3 revisions <span> `;
+=======
+      icons.innerHTML = ` 
+ <span class="deliveryClass"> ${deliveryIcon.outerHTML} 5-day delivery </span>
+ <span class= "revisionsClass"> ${revisionsIcon.outerHTML} 3 revisions <span> `;
+>>>>>>> ad82924 (Descrizione delle modifiche)
 
     } else if (item.classList.contains("mixMasterThree")) {
       mixingTitle.innerHTML = "Mixing/Mastering (31 - 50 stems) $90";
       mixingMasteringContainerText.innerHTML = mixingMasterTreText;
       icons.innerHTML = "span 3";
       specificheLi[2].innerHTML = `${checked.outerHTML} ${specificaLiTre} `;
+<<<<<<< HEAD
       icons.innerHTML = ` <span class="deliveryClass"> ${deliveryIcon.innerHTML} 5-day delivery </span>
                           <span class= "revisionsClass"> ${revisionsIcon.innerHTML} 3 revisions <span> `;
+=======
+      icons.innerHTML = `
+<span class="deliveryClass"> ${deliveryIcon.outerHTML} 5-day delivery </span>
+<span class= "revisionsClass"> ${revisionsIcon.outerHTML} 3 revisions <span> `;
+>>>>>>> ad82924 (Descrizione delle modifiche)
 
     }
   });

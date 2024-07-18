@@ -379,10 +379,18 @@
 }
 
 @media screen and (max-width: 500px) {
+<<<<<<< HEAD
     
     .content {
         overflow-x: hidden;
         overflow-y: hidden;
+=======
+
+    .content {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-bottom: 50px;
+>>>>>>> ad82924 (Descrizione delle modifiche)
     }
     
 
