@@ -1,10 +1,6 @@
 @import "layout.css";
 .container {
-<<<<<<< HEAD
-  height: 105%;
-=======
   height: auto;
->>>>>>> ad82924 (Descrizione delle modifiche)
  /* overflow-y: auto; */
 }
 .content {
@@ -41,13 +37,11 @@
 }
 
 .card {
-<<<<<<< HEAD
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     position: relative;
     top: -30px;
   }
-
   .artworkImg {
     width: 500px;
     height: 500px;
@@ -55,13 +49,6 @@
     object-fit: cover;
     border-bottom: solid 2px #39b04a;
   }
-=======
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: -30px;
-}
-
 .artworkImg {
     width: 100%;
     height: auto;
@@ -69,8 +56,6 @@
     object-fit: cover;
     border-bottom: solid 2px #39b04a;
 }
->>>>>>> ad82924 (Descrizione delle modifiche)
-
   /* player */
   #play {
     position: absolute;
@@ -80,10 +65,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> ad82924 (Descrizione delle modifiche)
   #pause {
     display: none;
     position: absolute;
@@ -91,10 +73,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-<<<<<<< HEAD
-=======
       cursor: pointer;
->>>>>>> ad82924 (Descrizione delle modifiche)
   }
   .timeInfo, .slider {
     text-align: center;
