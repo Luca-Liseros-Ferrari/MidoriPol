@@ -1,15 +1,17 @@
 @import "layout.css";
 .container {
-  height: 105%;
- /* overflow-y: auto; */
+    height: auto;
+    /* overflow-y: auto; */
 }
 .content {
   background: #000;
   border: solid 3px #39b04a;
   height: auto;
+    width: 100%;
+    margin-bottom: 50px;
 }
 .pageContent {
-    width: 500px;
+    width: 100%;
     margin-top: 30px;
     height: auto;
 }
@@ -37,19 +39,19 @@
 }
 
 .card {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     position: relative;
     top: -30px;
-  }
+}
 
-  .artworkImg {
-    width: 500px;
-    height: 500px;
+.artworkImg {
+    width: 100%;
+    height: auto;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-bottom: solid 2px #39b04a;
-  }
+}
 
   /* player */
   #play {
@@ -161,10 +163,9 @@ input[type="range"]::-webkit-slider-thumb {
     }
 }
 
-@media only screen and (max-width: 730px) {  
+@media only screen and (max-width: 730px) {
     .pageContent {
-        margin-top: 30px;
-        width: auto;
+        width: 100%;
     }
 }
 
@@ -207,4 +208,23 @@ font-size: 12px;
 .title {
   font-size: 14px;
 }
+    /* player */
+    #play {
+        position: absolute;
+        width: 25vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+
+    #pause {
+        display: none;
+        position: absolute;
+        width: 25vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
 }

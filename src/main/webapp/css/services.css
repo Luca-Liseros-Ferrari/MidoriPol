@@ -1,5 +1,8 @@
 @import "layout.css";
 
+.content {
+    margin-bottom: 50px;
+}
 .serviceWrap {
     position: relative;
     right: 0px;
@@ -7,7 +10,7 @@
     height: auto;
     display: grid;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .title {
