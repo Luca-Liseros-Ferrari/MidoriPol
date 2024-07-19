@@ -1,9 +1,9 @@
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\dto\EmailDTO.java
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\com\midoriPol\business\SendMail.java
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\com\midoriPol\rs\ResourceUtility.java
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\com\midoriPol\rs\JacksonConfiguration.java
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\Main.java
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\com\midoriPol\model\EmailMessage.java
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\com\midoriPol\rs\RestApplication.java
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\com\midoriPol\rs\SendEmailResource.java
-D:\3 - WEB DESIGN\03 - SiteConstructionFolder\08 - Siti Realizzati - ordina\9 - siti commisionati\POL\01 - midoriPolFinale\src\main\java\com\midoriPol\model\MyAuthenticator.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\com\midoriPol\rs\JacksonConfiguration.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\com\midoriPol\model\EmailMessage.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\com\midoriPol\rs\RestApplication.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\dto\EmailDTO.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\com\midoriPol\rs\ResourceUtility.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\com\midoriPol\business\SendMail.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\Main.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\com\midoriPol\rs\SendEmailResource.java
+C:\Users\LIVE\Desktop\MidoriPol\src\main\java\com\midoriPol\model\MyAuthenticator.java

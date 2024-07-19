@@ -1,0 +1,5 @@
+git init
+git remote add origin https://github.com/Luca-Liseros-Ferrari/MidoriPol.git
+git add .
+git commit -m "modifiche"
+git push origin master

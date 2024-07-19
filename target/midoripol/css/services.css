@@ -2,12 +2,12 @@
 
 .serviceWrap {
     position: relative;
-    right: 0;
+    right: 0px;
     width: auto;
     height: auto;
     display: grid;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .title {
