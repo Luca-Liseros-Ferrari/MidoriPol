@@ -191,4 +191,20 @@ if (backgroundImage.includes("MeMyselfAndIArtworkBlurred")) {
       "https://music.apple.com/it/album/rulers-of-polluted-lands-single/1743586729",
     ]
   );
+} else if (backgroundImage.includes("sirenCallsArtworkBlurred")) {
+    songParams(
+        "Siren Calls",
+        "../songs/audio/sirenCalls.mp3",
+        "../songs/artworks/sirenCalls.jpeg",
+        [
+            // spotify
+            "https://open.spotify.com/track/7vB6csfC3us4yPMcRYbfbF",
+            // youtube
+            "https://www.youtube.com/watch?v=OE9AELY9aOQ",
+            // amazon music
+            "https://www.amazon.it/music/player/albums/B0DBJ6D3DR",
+            // apple music
+            "https://music.apple.com/it/album/siren-calls-feat-bob-single/1760160073",
+        ]
+    );
 }
