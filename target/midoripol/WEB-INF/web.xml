@@ -4,5 +4,19 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <filter>
+    <filter-name>CSPFilter</filter-name>
+    <filter-class>com.midoriPol.rs.CSPFilter</filter-class>
+    <init-param>
+      <param-name>cors.allowed.origins</param-name>
+      <param-value>*</param-value>
+    </init-param>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>CSPFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
 </web-app>
 
